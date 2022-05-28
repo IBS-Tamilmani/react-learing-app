@@ -14,14 +14,17 @@
   Reference : https://mui.com/material-ui/
 
 # The steps to add the sample component mentioned below
-
-  Add the component details in \src\MockData\componentmenulist.json
-  Add the json data for the component \src\MockData
-  Add router and import for the component in App.js
-  	import listDataItems from './MockData/componentmenulist.json';
-  	import ListComponent from './Components/ListComponent';
-  	<Route path="menulist" element={<ListComponent itemData={listDataItems} />} />
-  Create your component js in ./Component folder
+  Create new page for your component in ./Pages (Ex :'./MockData/Menu.page')
+   If you have the mock date add it in ./MockData (Ex :'./MockData/componentmenulist.json')
+  Create the component and map with the page in ./Components (Ex: './Components/MenuListComponent')
+  Add router page in the router App.js
+  Add your component with menu by adding
+  	{
+        "name": "Menu",
+        "icon": "@mui/icons-material/Delete",
+        "component": "MenuPage",
+        "path": "/menulist"
+      }
 
 
 
