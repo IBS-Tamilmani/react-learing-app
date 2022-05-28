@@ -1,0 +1,14 @@
+[
+    {
+      "name": "Item 1",
+      "icon": "@mui/icons-material/Delete",
+      "component": "ListComponent",
+      "path": "/list"
+    },
+    {
+        "name": "Item 2",
+        "icon": "@mui/icons-material/Delete",
+        "component": "MenuListComponent",
+        "path": "/menulist"
+      }
+  ]

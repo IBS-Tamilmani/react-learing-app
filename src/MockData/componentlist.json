@@ -1,0 +1,14 @@
+[
+    {
+      "name": "List",
+      "icon": "@mui/icons-material/Delete",
+      "component": "ListPage",
+      "path": "/list"
+    },
+    {
+        "name": "Menu",
+        "icon": "@mui/icons-material/Delete",
+        "component": "MenuPage",
+        "path": "/menulist"
+      }
+  ]
